@@ -15,9 +15,6 @@ document.getElementById("tipForm").addEventListener('submit', function(event){
     const GRAND_TOTAL_ELEMENT = document.getElementById("grand-total")
     const GRAND_TOTAL= BILL_TOTAL + TIP
 
-    //VARIABLES
-    let grandTotal= 0.00
-
     TIP_ELEMENT.textContent = TIP.toFixed(2)
     GRAND_TOTAL_ELEMENT.textContent=GRAND_TOTAL.toFixed(2)
 
